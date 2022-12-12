@@ -9,7 +9,6 @@ import com.cajanegra.EmptyCollectionException;
 import com.cajanegra.SingleLinkedListImpl;
 
 public class Editor {
-
 	private AbstractSingleLinkedListImpl<AbstractSingleLinkedListImpl<String>> editor;
 	private AbstractSingleLinkedListImpl<String> lista;
 
