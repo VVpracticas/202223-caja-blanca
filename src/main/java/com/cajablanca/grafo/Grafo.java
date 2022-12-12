@@ -154,7 +154,7 @@ class Grafo {
 		}
 	}
 
-	private boolean todosVisitados() {
+	public boolean todosVisitados() {
 		for (Integer clave : this.listAdy.keySet()) {
 			if (this.visitados[clave] == false) {
 				return false;
